@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Grey+Qo&family=Teko:wght@300..700&display=swap');
+
+.font-teko {
+  font-family: "Teko", sans-serif;
+}
+
+/* App.css */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+.outline{
+  -webkit-text-stroke: 3px white;
+}
+
+canvas {
+  display: block;
+}
+
+/* Ensure that the Canvas fills the entire screen */
+.fullscreen-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
